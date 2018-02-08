@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<meta charset="utf-8">
+		<link href="{{url_for('static', filename='css/profile.css')}}" type="text/css" rel="stylesheet">
+</head>
+
+	<body>
+    <div class = "card">    
+        <div class="format">
+        
+            <img src="{{url_for('static', filename='phodo.jpg'}}" alt="Avatar"/>
+            <h1>Jonathan South </h1>
+            <p>@jonsouthy</p>
+            
+            <p>Kingston, Jamaica</p>
+            <p>{{format_date_joined}}</p>
+         </div>
+         <div class="info">
+            </br>
+            <p>I really enjoy coding for websites and i just loooveeeee to do all this work! Hit me up if you feel the same way</p>
+         </div>
+         <div class="main">
+         
+            <div class = "first"> 
+                <p> 7 </p>
+             </div>
+
+             <div class="second">
+                <p> 200 </p>
+             </div>
+
+             <div class="third">
+                <p> 100 </p>
+             </div> 
+         
+      
+             <div class ="xfirst">
+                <p> Posts</p>
+             </div>
+
+             <div class="xsecond">
+                <p> Followers </p>
+             </div>
+
+             <div class ="xthird">
+                <p> Following </p>
+             </div>  
+             
+               <button class="xxsecond"> Follow </button>
+         </div>    
+     </div>    
+	</body>
+</html>
